@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[TblBook](
-    [BookID] [int] IDENTITY(1,1) NOT NULL,
+    [Id] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,
     [ISBN] [varchar](50) NULL,
     [Title] [varchar](100) NULL,
     [Author] [varchar](50) NULL,
